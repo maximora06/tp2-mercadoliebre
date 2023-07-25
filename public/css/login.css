@@ -1,0 +1,46 @@
+
+
+
+.form0 {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+  }
+  
+.form{
+  width:100%;
+  padding: 15px;
+  font-family: 'Roboto';
+  padding: 10px;
+  
+}
+
+
+.form3{
+ 
+
+  width:100%;
+  padding: 15px;
+  font-family: 'Roboto';
+  padding: 10px;
+  
+
+
+}
+
+.login-envio{
+ 
+  background-color:rgb(69, 160, 160);
+  font-family: 'Roboto';
+  Font-size:10px;
+}
+.login-envio:hover{
+  background-color:rgb(53, 126, 126);
+
+}

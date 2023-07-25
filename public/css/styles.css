@@ -1,0 +1,335 @@
+@import 'login.css';
+@import 'reg.css';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb;
+}
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:#EAC926;
+}
+.texto-formasdepago{
+    width: 33%;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    padding: 10px;
+}
+.logo{
+    width: 33%;
+    padding: 10px;
+}
+.buscador{
+    width: 33%;
+    padding: 5px;
+    
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+.input{
+    background-color:#FFF;
+    border: 1px solid black;
+    color:#666;
+    padding: 5px;
+    outline: none;
+    border-radius: 5%;
+    width: 100%
+
+}
+.icono-buscador {
+    background-color:#FFF;
+    border-left: 1.5px solid black;
+    
+    color:#666;
+    position: absolute;
+    padding:3px;
+    right:12.5px;
+}
+
+header nav{
+    display: none;
+}
+
+a.header{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li{
+    list-style-type: none;
+}
+
+.header-superior{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.site1 {
+    display: flex;
+    padding: 5px;
+    font-size: 17px;
+ 
+}
+.site2{
+    display: flex;
+    padding: 5px;
+    font-size: 17px;
+
+}
+.site1 li{
+    margin-right: 10px;
+    padding: 5px;
+    
+    
+}
+.site2 li {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+
+
+.banner{
+    width: 100%;
+    
+}
+/*MAIN*/
+main{
+    background-color:#ebebeb;
+    width: 90vw;
+    margin: auto;
+}
+.productos{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3.titulares{
+    font-size: 24px;
+    background-color:#ebebeb;
+    
+}
+
+p.precio{
+    font-size: 18px;
+    width: 30%;
+    text-align: left;
+}
+
+p.descuento{
+    font-size: 16px;
+    color: green;
+    width: 70%;
+    text-align: right;
+}
+
+h4.descripcion{
+    font-size: 16px;
+    display:none;
+    color: #666;
+}
+
+p.cuerpos{
+    font-size: 12px;
+}
+
+.product-info{
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.product-info i{
+color: #39b54a;
+display: flex;
+font-size: 1.3em;
+padding: 5px;
+width: 35px;
+height: 35px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -20px;
+text-align: center;
+justify-content: center;
+align-items: center;
+transition: all 0.5s;
+
+}
+.product-img{
+    
+    width: 100%;
+    
+    
+}
+
+main article {
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 80%
+}
+main article:hover .descripcion{
+display: block;
+
+}
+
+main article:hover{
+     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+article:hover .fa-truck{
+    transform: rotate(-90deg);
+}
+
+
+
+.burger-menu{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.burger-menu i{
+    background-color:#1259c3;
+    color:#fff;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 20px 0
+}
+/* FOOTER */
+
+footer{
+    background-color: white
+}
+.tarjeta-de-credito{
+    text-align: center;
+}
+.tarjeta-de-credito i{
+    background-color:#fff;
+    color:#1259c3;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 20px 0
+}
+.envio-gratis{
+    text-align: center;
+}
+.envio-gratis i{
+    background-color:#fff;
+    color:#1259c3;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 20px 0
+}    
+.seguridad{
+    text-align: center;
+}
+.seguridad i{
+    background-color:#fff;
+    color:#1259c3;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 20px 0
+}
+footer section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+footer section article{
+   margin-bottom: 10px;
+    
+}
+.copyright{
+    text-align:left;
+    padding: 10px;
+    margin: 10px; 
+    font-size: 15px;
+}
+footer article p{
+    font-size: 15px
+}
+footer article h4{
+    font-size: 20px
+}
+footer i{
+    transition: all 0.25s;
+
+}
+footer i:hover{
+    background-color: #d2c2fe;
+}
+
+@media (min-width: 361px) {
+
+ 
+
+   
+
+    .burger-menu{
+        display: none;
+    }
+  
+    header nav{
+        display:block;
+        
+    }
+
+    main article{
+        width: 40%;
+    }
+
+    .productos{
+        justify-content: space-around;
+    }
+    
+}
+@media (min-width: 769px) {
+
+    main article{
+        width: 20%;
+
+    }
+
+    .productos{
+        justify-content: space-between;
+    }
+   
+
+
+    
+}
+
+
